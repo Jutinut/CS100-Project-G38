@@ -5,9 +5,15 @@ font-family: 'Luxurious Roman', serif;
     padding: 0;
     box-sizing: border-box;
 }
-.container {
+.Profile .container {
     max-width: 1170px;
+    display: grid;
     margin: 0 auto;
+    grid-template-areas:
+    'prf1'
+    'prf2';
+    justify-content: space-evenly;
+
 }
 
 /*--Nav Header Section--*/
@@ -72,12 +78,13 @@ font-family: 'Luxurious Roman', serif;
 
      .Profile-posts {
         margin: 2rem 0;
-        display: grid;
+    
         grid-template-columns:repeat(2,1fr);
         grid-gap: 2rem;
      }
      .Profile-posts img{
-        max-width:100%;
+        width:40rem;
+        max-width: 100%;
         border-left: 15px solid #f1bd78;
         
      }
