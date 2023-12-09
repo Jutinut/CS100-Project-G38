@@ -71,7 +71,7 @@ function SubmitForm() {
       const ID = document.getElementById(All_id[i])
       if(ID.value === null || ID.value === ""){
         ID.style.border = "1.5px solid red"
-        alert(`plese fill ${All_id[i]}`)
+        alert(`please fill ${All_id[i]}`)
 
         if(i<=2) 
         window.scrollTo(0, 0)
