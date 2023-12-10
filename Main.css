@@ -1,0 +1,91 @@
+*   
+ {  
+font-family: 'Luxurious Roman', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Profile .container {
+    max-width: 1170px;
+    display: grid;
+    margin: 0 auto;
+    grid-template-areas:
+    'prf1'
+    'prf2';
+    justify-content: space-evenly;
+
+}
+
+/*--Nav Header Section--*/
+   nav{
+    background-color: #72383D ;
+    color: #D7DBDD;
+    height: 120px;
+    }
+    .nav-con {
+        display:flex;
+        justify-content: space-between;
+        height: 110px;
+        align-items: center;
+    }
+
+    ul.menu {
+        display:flex;
+        list-style: none;
+    }
+    ul.menu li{
+        margin:0 1rem;
+    }
+    ul.menu li a{
+        color:#EFE9E1;
+        text-decoration: none;
+    }
+
+    /*--End Nav Header Section--*/
+
+
+    /*--Banner Section--*/
+    .banner {
+        height:500px;
+        background-color:#AC9C8D;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url("../Image/Thammasart.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+    .banner-info h1 {
+        font: size 2.5rem;
+        color: #f1bd78;
+    }
+
+     /*--End Banner Section--*/
+
+
+     /*--Profile Section--*/
+     .Profile {
+        background-color: #D9D9D9; 
+        height:auto;
+        padding:2rem 0;
+     }
+     .Profile h3{
+        color: #322d29;
+     }
+     .Profile p{
+        color: #322d29;
+     }
+
+     .Profile-posts {
+        margin: 2rem 0;
+    
+        grid-template-columns:repeat(2,1fr);
+        grid-gap: 2rem;
+     }
+     .Profile-posts img{
+        width:40rem;
+        max-width: 100%;
+        border-left: 15px solid #f1bd78;
+        
+     }
+     /*--End Profile Section--*/ 
