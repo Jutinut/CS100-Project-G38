@@ -1,3 +1,8 @@
+const config = {
+    backendUrl: "http://localhost:8000/", // Default backend URL
+  };
+  const port = 8000;
+
 // chack Name
 function validateName() {
   const names = document.getElementById("fullname").value.trim().split(" ");
