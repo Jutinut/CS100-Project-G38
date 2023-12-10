@@ -88,12 +88,5 @@ font-family: 'Luxurious Roman', serif;
         border-left: 15px solid #f1bd78;
         
      }
-     /**********buttom*************/
-     button{
-        width: 7vw;
-        height: 9vh;
-        border: none;
-        background-color: #72383d00;
-        color: #ffffff;
-     }
+     
      /*--End Profile Section--*/ 
